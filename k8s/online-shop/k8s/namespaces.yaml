@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: online-shop
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: online-shop-bd
