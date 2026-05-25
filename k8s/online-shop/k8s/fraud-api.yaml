@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fraud-api
-          image: 192.168.0.8:30082/fraud-api:1.0.0
+          image: 192.168.0.8:30082/cilium-shop/fraud-api:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

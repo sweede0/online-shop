@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
         - name: inventory-api
-          image: 192.168.0.8:30082/inventory-api:1.0.0
+          image: 192.168.0.8:30082/cilium-shop/inventory-api:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
